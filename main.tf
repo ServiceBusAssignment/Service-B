@@ -21,9 +21,9 @@ module "service-bus-module" {
       dead_lettering_enabled = false
     }
   }
-  action_group_name = "team1"
+  action_group_name       = "team1"
   action_group_short_name = "p1-action"
-  alert_rule        = {
+  alert_rule              = {
     rule-a = {
       alert_name         = "Service-B-Queue2"
       metric_name        = "Messages"
